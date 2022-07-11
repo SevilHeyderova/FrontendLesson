@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    
+}
+h4{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+.text1{
+    margin: 30px;
+    
+}

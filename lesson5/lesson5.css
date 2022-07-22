@@ -1,0 +1,33 @@
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.box{
+    width: 16%;
+    height: 200px;
+    display: inline-block;
+    margin-top: 2rem;
+}
+h1{
+     text-align: center;
+    font-size: 30px;
+    color: rgb(28, 28, 68);
+
+}
+p{
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    margin: 0%;
+    color: rgb(28, 28, 68);
+
+}
+.box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 10px;
+    object-fit: cover;
+} 
+

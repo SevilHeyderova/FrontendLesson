@@ -1,0 +1,51 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg{
+    background-color: rgb(10, 66, 10);
+    height: 450px;
+}
+.bigbox{
+    width: 60%;
+    margin: auto;
+}
+.leftbox{
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+.leftbox img{
+    height: 250px;
+    width: 350px;
+    margin-top: 2rem;
+}
+.rightbox{
+    width: 40%;
+    color: white;
+    float: right;
+}
+p{
+    font-size: 12px;
+}
+.rightbox img{
+    height: 140px;
+    width: 200px;
+    margin-top: 1rem;
+}
+.rightbox span{
+    width: 150px;
+    height: 30px;
+    display: block;
+    background-color: green;
+    margin: 2rem 1rem 1rem 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.rightbox span a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}

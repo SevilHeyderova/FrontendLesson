@@ -1,0 +1,85 @@
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.services{
+    display: flex;
+    color: white;
+    background-color: rgba(8, 8, 41, 0.959);
+    padding: 50px;
+
+}
+.bigbox{
+    width: 32%;
+
+}
+.bigbox span{
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: rgb(131, 208, 243);
+    margin-top: 10px;
+}
+.bigbox h1{
+    font-size: 30px;
+    margin:0%;
+
+}
+.bigbox .head{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: auto;
+
+}
+.bigbox .text{
+    margin: 40px 0px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.bigbox .bottom{
+    display: flex;
+}
+.bigbox .left{
+    width: 8%;
+    height: 20px;
+    border-top: 1px solid rgb(131, 208, 243) ;
+    border-left: 1px solid rgb(131, 208, 243);
+
+}
+.bigbox .right{
+    width: 8%;
+    height: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(131, 208, 243) ;
+    border-right: 1px solid rgb(131, 208, 243);
+}
+.bordertext a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.box{
+    width: 30%;
+    margin-left: 20px;
+}
+.box span{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border:1px solid rgb(131, 208, 243) ;
+    text-align: center;
+}
+.box span i{
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.box p{
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}

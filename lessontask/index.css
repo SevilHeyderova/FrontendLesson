@@ -1,0 +1,53 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.coursel-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+
+}
+.card{
+    width: 18%;
+    border: 1px solid rgb(243, 241, 241);
+    text-align: center;
+    padding: 7px;
+}
+.coursel-header{
+    display: flex;
+    justify-content:space-between;
+}
+
+.coursel-header div{
+    margin: 15px;
+}
+.coursel-header a{
+    text-decoration: none;
+    color: gray;
+} 
+
+.card-body span{
+    display: block;
+    color: gray;
+}
+.card-body a{
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.card-body strong{
+    color: red;
+}
+.card-body small{
+    color: gray;
+    text-decoration-line:line-through ;
+}
+.card-body i{
+    margin: 5px;
+}

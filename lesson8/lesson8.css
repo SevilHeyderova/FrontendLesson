@@ -1,0 +1,84 @@
+.container{
+    width: 70%;
+    margin: auto;
+}
+.page{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+}
+.bigcard{
+    width: 50%;
+    background-image: url(photo1.jpg);
+    background-size: cover;
+    position: relative;
+
+}
+
+.bigcard button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 185px;
+    border: none;
+}
+.card2{
+    width: 25%;
+    margin: 0px 20px;
+}
+.card2 .box1{
+    background-image: url(photo2.jpg);
+    width: 100%;
+    height: 235px;
+    background-size: cover;
+    position: relative;
+}
+.box1 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    border: none;
+}
+.card2 .box2{
+    background-image: url(photo3.jpg);
+    width: 100%;
+    height: 235px;
+    background-size: cover;
+    margin-top: 30px;
+    position: relative;
+
+}
+.box2 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    border: none;
+}
+.card3{
+    width: 25%;
+    background-image: url(photo4.jpg);
+    background-size: cover;
+    position: relative;
+}
+.card3 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    border: none;
+}

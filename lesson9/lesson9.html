@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lesson9.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <a href="">New Products</a>
+            <a href="">Special Products</a>
+            <a href="">Featured Products</a>
+        </div>
+        <div class="bigcard">
+            <div class="card1">
+                <div class="photo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEkOLIvxlZ4-icaDBhe_B7P-9UnUP-ZJpDw&usqp=CAU"
+                        alt="">
+                    <div class="top">
+                        <span class="new">New</span>
+                        <span class="percent">-30%</span>
+                        <span class="order">Pre-order</span>
+                    </div>
+                    <div class="bottom">
+                        <span>14 DAYS</span>
+                        <span>0 HRS</span>
+                        <span>43 MN</span>
+                        <span>11 SEC</span>
+                    </div>
+                </div>
+                <div class="text">
+                    <p class="name">Lacoste</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span class="line">$451.00</span>
+                    <span>$320.00</span>
+
+                </div>
+                <div class="colors">
+                    <span style="background-color: white; border: 1px solid black;"></span>
+                    <span style="background-color: teal;"></span>
+                    <span style="background-color: pink;"></span>
+                    <span style="background-color: black;"></span>
+                    <span style="background-color: brown;"></span>
+                    <span style="background-color: green;"></span>
+
+                </div>
+                <div class="size">
+                    <span>30</span>
+                    <span>32</span>
+                    <span>34</span>
+                    <span>36</span>
+                </div>
+                <div class="bot">
+                    <div class="add">
+                        <p>Pre-order</p>
+                    </div>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-scale-balanced"></i></span>
+                </div>
+                <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                </div>
+
+            </div>
+            <div class="card1">
+                <div class="photo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QkRlbtY2mBpvIMU6kD6z7OKrPcEW2hka5w&usqp=CAU"
+                        alt="">
+                    <div class="top">
+                        <span class="hot">Hot</span>
+                    </div>
+
+                </div>
+                <div class="text">
+                    <p class="name">Prada</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>$171.00</span>
+
+                </div>
+                <div class="colors">
+                    <span style="background-color: white; border: 1px solid black;"></span>
+                    <span style="background-color: teal;"></span>
+                    <span style="background-color: pink;"></span>
+
+
+                </div>
+                <div class="size">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                    <span>XXL</span>
+                </div>
+                <div class="bot">
+                    <div class="add">
+                        <p>Add To Cart</p>
+                    </div>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-scale-balanced"></i></span>
+                </div>
+                <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                </div>
+
+
+            </div>
+            <div class="card1">
+                <div class="photo">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                </div>
+                <div class="text">
+                    <p class="name">Dolce & Gabbana</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span>$330.00</span>
+
+                </div>
+                <div class="colors">
+
+                    <span style="background-color: brown;"></span>
+                    <span style="background-color: green;"></span>
+
+                </div>
+                <div class="size">
+                    <span>XS</span>
+                    <span>S</span>
+                    <span>M</span>
+                    <span>L</span>
+                    <span>XL</span>
+                </div>
+                <div class="bot">
+                    <div class="add">
+                        <p>Add To Cart</p>
+                    </div>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-scale-balanced"></i></span>
+                </div>
+                <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star-half-stroke"></i></span>
+                </div>
+
+            </div>
+            <div class="card1">
+                <div class="photo">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSKVs9KSKkOXQD1kRZGq8YLX44k_zWvE_aA&usqp=CAU"
+                        alt="">
+                    <div class="top">
+                        <span class="percent">25%</span>
+                    </div>
+
+                </div>
+                <div class="text">
+                    <p class="name">Levi's</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <span class="line">$28.00</span>
+                    <span>$210.00</span>
+
+                </div>
+                <div class="clothes">
+                    <span><img src="cloth1.jpg" alt=""></span>
+                    <span><img src="cloth2.jpg" alt=""></span>
+                </div>
+
+                <div class="bot">
+                    <div class="add">
+                        <p>Add To Cart</p>
+                    </div>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-scale-balanced"></i></span>
+                </div>
+                <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-regular fa-star"></i></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

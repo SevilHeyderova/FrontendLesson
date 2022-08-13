@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+}
+
+header .top-nav {
+  padding: 1rem 0;
+}
+
+header .top-nav .left {
+  width: 30%;
+  color: #777777;
+  font-size: 12px;
+}
+
+header .top-nav .right {
+  width: 70%;
+  text-align: right;
+}
+
+header .top-nav .right ul li {
+  display: inline;
+}
+
+header .top-nav .right ul li a {
+  color: #777777;
+  font-size: 12px;
+}
+
+header .top-nav .right ul .border {
+  border: 1px solid #afaaaa;
+  margin: 0px 10px;
+}
+
+header .bottom-nav {
+  background-color: #f8f8f8;
+}
+
+header .bottom-nav .box {
+  width: 25%;
+}
+
+header .bottom-nav .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+}
+
+header .bottom-nav .box ul hr {
+  height: 100%;
+  width: 1px;
+  padding: 0;
+  border-color: #ffffff;
+}
+
+header .bottom-nav .box ul li {
+  list-style: none;
+}
+
+header .bottom-nav .box ul li a {
+  color: #222222;
+}
+
+header .bottom-nav .box img {
+  vertical-align: middle;
+}
+
+header .bottom-nav .box-center {
+  width: 50%;
+}
+
+header .bottom-nav .box-center .mainUl {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .bottom-nav .box-center .mainUl .li-main {
+  list-style-type: none;
+  margin: 0 20px;
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .bottom-nav .box-center .mainUl .li-main a {
+  color: #222222;
+  font-size: 12px;
+}
+
+header .bottom-nav .box-center .mainUl .li-main .dropdown {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: -20px;
+  border: 1px solid white;
+  width: 150px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header .bottom-nav .box-center .mainUl .li-main .dropdown li {
+  padding: 10px 0;
+  margin: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #efe4e4;
+}
+
+header .bottom-nav .box-center .mainUl .li-main .dropdown li a {
+  margin-left: 20px;
+}
+
+header .bottom-nav .box-center .mainUl .li-main .dropdown li:last-child {
+  border-bottom: none;
+}
+
+header .bottom-nav .box-center .mainUl .li-main:hover .dropdown {
+  display: block;
+}
+/*# sourceMappingURL=lesson11.css.map */

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lesson11.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top-nav flex-container">
+                <div class="left">
+                    CALL US 012 44 5698 7456 896
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="">LOGIN/REGISTER</a>
+                        </li>
+                        <li class="border"></li>
+                        <li>
+                            <a href="">MY ACCOUNT</a>
+                        </li>
+                        <li class="border"></li>
+                        <li>
+                            <a href="">CONTACT US</a>
+                        </li>
+                        <li class="border"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="container">
+                <div class="flex-container">
+                    <div style="padding: 1rem 0; " class="box">
+                        <h4>
+                            <img width="50"
+                                src="data:image/png;base64,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"
+                                alt="">
+                            Fashiop
+                        </h4>
+                    </div>
+                    <div class="box-center">
+                        <ul class="mainUl">
+                            <li class="li-main">
+                                <a style="color: blue;" href="">Home <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="">Shop Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Chekout</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shopping Cart</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="li-main">
+                                <a href="">Shop <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="">Shop Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Chekout</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shopping Cart</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="li-main">
+                                <a href="">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="">Shop Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Chekout</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shopping Cart</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="li-main">
+                                <a href="">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="">Shop Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Chekout</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shopping Cart</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="li-main">
+                                <a href="">Contact <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="">Shop Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Product Chekout</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Shopping Cart</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <ul>
+                            <hr>
+                            <li>
+                                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href=""><i class="fa-solid fa-user"></i></a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href=""><i class="fa-solid fa-heart"></i></a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                            <hr>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>

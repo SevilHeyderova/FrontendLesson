@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+header {
+    .services {
+        width: 100%;
+        text-align: right;
+        a {
+            text-decoration: none;
+            color: gray;
+            padding: 0 15px;
+            font-size: 13px;
+        }
+    }
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        .logo {
+            a {
+                text-decoration: none;
+                font-size: 50px;
+                color: black;
+            }
+        }
+        .center {
+            width: 50%;
+            padding: 10px;
+
+            .search {
+                width: 100%;
+                height: 40px;
+                background-color: rgb(233, 231, 231);
+                text-align: right;
+                border-radius: 5px;
+
+                i {
+                    padding: 10px;
+                    height: 100%;
+                    font-size: 20px;
+                    color: orange;
+                }
+            }
+        }
+        .right {
+            padding: 20px;
+            a {
+                text-decoration: none;
+                color: rgb(95, 95, 95);
+                margin: 0 10px;
+            }
+        }
+    }
+    .bottom-nav {
+        padding: 10px;
+        position: relative;
+        .mainUl {
+            display: flex;
+            justify-content: space-between;
+
+            .li-main {
+                list-style: none;
+                .link {
+                    text-decoration: none;
+                    font-size: 18px;
+                    letter-spacing: 0.5px;
+                    font-weight: bold;
+                    padding: 8px;
+                    color: #333;
+                }
+                .dropdown {
+                    top: 42px;
+                    width: 60%;
+                    display: none;
+                    background-color: white;
+                    position: absolute;
+
+                    .menu {
+                        display: flex;
+                        justify-content: space-between;
+                        li {
+                            list-style: none;
+                            width: 20%;
+
+                            .head {
+                                font-weight: bold;
+                                text-decoration: none;
+                                color: black;
+                            }
+                            a {
+                                padding: 2px 0;
+                                font-size: 15px;
+                                display: block;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+            .li-main:hover .dropdown {
+                display: block;
+            }
+            .li-main:hover .link{
+                color: orange !important;
+                border-bottom: 3px solid orange;
+            }
+            .dropdown li a:hover {
+                color: orange !important;
+            }
+        }
+    }
+}

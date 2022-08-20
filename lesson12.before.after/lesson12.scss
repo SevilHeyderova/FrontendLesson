@@ -1,0 +1,93 @@
+* {
+    
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    .flex-container {
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+
+        .left {
+            width: 45%;
+            background-image: url(https://images.pexels.com/photos/13119234/pexels-photo-13119234.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+           
+            
+        }
+        .right{
+            width: 48%;
+            padding: 10px;
+            h1{
+                margin:  10px 0px;
+            }
+            .company{
+                color:  rgb(185, 13, 13);
+                font-size: 20px;
+                margin: 0;
+            }
+            p{
+                color: gray;
+                span{
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    border: 1px solid gray ;
+                    border-radius: 3px;
+                    margin-right: 15px;
+                    vertical-align: middle;
+                }
+            }
+            .about{
+                width: 120px;
+                height: 40px;
+                border: 2px solid rgb(185, 13, 13);
+                display: block;
+                border-radius: 3px;
+                text-decoration: none;
+                color:rgb(185, 13, 13);
+                font-size: 18px;
+                margin-top: 30px;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+        .left::before{
+            content:"";
+            width: 337px;
+            height: 500px;
+            border-style: solid;
+            border-color:rgb(206, 204, 204) ;
+            border-width: 7px;
+            position: absolute;
+            bottom: 30px;
+            right: 35px;
+        }
+        .left::after{
+            content: "Since 1992";
+            width: 25px;
+            height: 125px;
+            background-color: rgb(185, 13, 13);
+            position: absolute;
+            bottom: 10px;
+            right: 8px;
+            opacity: 0.5;
+            color: white;
+            font-size: 20px;
+            writing-mode:vertical-lr;
+            text-align: center;
+            transform: rotate(180deg);
+            padding: 10px;
+            
+            
+        }
+    }
+
+}

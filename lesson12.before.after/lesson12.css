@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container .flex-container {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+}
+
+.container .flex-container .left {
+  width: 45%;
+  background-image: url(https://images.pexels.com/photos/13119234/pexels-photo-13119234.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container .flex-container .right {
+  width: 48%;
+  padding: 10px;
+}
+
+.container .flex-container .right h1 {
+  margin: 10px 0px;
+}
+
+.container .flex-container .right .company {
+  color: #b90d0d;
+  font-size: 20px;
+  margin: 0;
+}
+
+.container .flex-container .right p {
+  color: gray;
+}
+
+.container .flex-container .right p span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.container .flex-container .right .about {
+  width: 120px;
+  height: 40px;
+  border: 2px solid #b90d0d;
+  display: block;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #b90d0d;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+.container .flex-container .left::before {
+  content: "";
+  width: 337px;
+  height: 500px;
+  border-style: solid;
+  border-color: #cecccc;
+  border-width: 7px;
+  position: absolute;
+  bottom: 30px;
+  right: 35px;
+}
+
+.container .flex-container .left::after {
+  content: "Since 1992";
+  width: 25px;
+  height: 125px;
+  background-color: #b90d0d;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  opacity: 0.5;
+  color: white;
+  font-size: 20px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-align: center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  padding: 10px;
+}
+/*# sourceMappingURL=lesson12.css.map */

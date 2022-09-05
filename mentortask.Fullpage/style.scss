@@ -1,0 +1,919 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.bigheader {
+    .head {
+        hr {
+            border: 1px solid rgb(221, 218, 218);
+        }
+        .top {
+            margin: 10px 0px;
+            display: flex;
+            justify-content: space-between;
+            .left {
+                a {
+                    color: gray;
+                    text-decoration: none;
+                    font-size: 15px;
+                    margin: 10px;
+                }
+            }
+            .text {
+                p {
+                    font-size: 15px;
+                    color: rgb(99, 98, 98);
+                }
+            }
+            .right {
+                display: flex;
+
+                .number {
+                    font-size: 15px;
+                    color: rgb(5, 165, 5);
+                    font-weight: bold;
+                }
+                a {
+                    color: gray;
+                    text-decoration: none;
+                    font-size: 15px;
+                }
+                .call {
+                    margin-right: 10px;
+                }
+                ul {
+                    display: flex;
+                    li {
+                        list-style: none;
+                        margin: 0 5px;
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box {
+            margin: 30px 0px;
+            display: flex;
+            justify-content: space-between;
+            .head {
+                width: 70%;
+                display: flex;
+                .name {
+                    width: 30%;
+                    display: flex;
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .nest {
+                        margin-left: 10px;
+                        h1 {
+                            font-size: 45px;
+                            color: rgba(0, 128, 0, 0.89);
+                        }
+                        p {
+                            font-size: 13px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .search {
+                    width: 70%;
+                    height: 45px;
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid green;
+
+                    form {
+                        position: relative;
+                        input {
+                            width: 450px;
+                            height: 35px;
+                            margin-top: 2px;
+                            border: none;
+                        }
+                        i {
+                            position: absolute;
+                            top: 15px;
+                            right: 10px;
+                            color: gray;
+                        }
+                    }
+
+                    .left {
+                        padding: 8px;
+                        width: 25%;
+                        ul {
+                            li {
+                                display: inline;
+                                list-style: none;
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                    font-weight: bold;
+                                    display: inline-block;
+                                    margin-right: 5px;
+                                }
+                            }
+                            i {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .icon {
+            width: 30%;
+            text-align: end;
+            span {
+                display: inline-block;
+                height: 40px;
+                width: 80px;
+                margin-top: 5px;
+                text-align: center;
+                position: relative;
+            }
+            a {
+                font-size: 15px;
+                text-decoration: none;
+                color: gray;
+            }
+            i {
+                font-size: 21px;
+                margin-top: 10px;
+            }
+            .number {
+                color: white;
+                text-align: center;
+                font-size: 13px;
+                display: inline-block;
+                background-color: rgb(90, 172, 90);
+                width: 16px;
+                height: 16px;
+                border-radius: 100%;
+                position: absolute;
+                top: 0px;
+                left: 20px;
+            }
+        }
+
+        .bottom {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            .cate {
+                width: 230px;
+                height: 40px;
+                background-color: rgb(90, 172, 90);
+                padding: 10px;
+                border-radius: 8px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+                i {
+                    color: white;
+                }
+            }
+            .menu {
+                width: 60%;
+                padding: 10px;
+                ul {
+                    li {
+                        list-style: none;
+                        display: inline;
+                        a {
+                            text-decoration: none;
+                            font-size: 16px;
+                            margin-left: 15px;
+                            font-weight: bold;
+                            color: black;
+                        }
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .hot {
+                padding: 10px;
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: black;
+                }
+                i {
+                    color: rgb(90, 172, 90);
+                }
+            }
+            .called {
+                display: flex;
+                i {
+                    font-size: 40px;
+                }
+                .text {
+                    margin-left: 10px;
+                }
+                .text h2 {
+                    color: rgb(90, 172, 90);
+                }
+                .text p {
+                    color: gray;
+                    font-size: 12px;
+                }
+            }
+        }
+        .bgbox {
+            background-color: rgb(218, 248, 245);
+            height: 300px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+            .left {
+                width: 30%;
+                text-align: center;
+                h1 {
+                    font-size: 4rem;
+                    color: rgb(2, 2, 34);
+                }
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    margin: 10px 5px;
+                    font-size: 20px;
+                    display: inline-block;
+                }
+                i {
+                    color: gray;
+                }
+            }
+            .right {
+                width: 60%;
+                text-align: center;
+                a {
+                    display: inline-block;
+                    width: 110px;
+                    height: 50px;
+                    background-color: white;
+                    border-radius: 25px;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 18px;
+                    color: rgba(0, 128, 0, 0.89);
+                    margin: 0 5px;
+                    i {
+                        color: gray;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.pages {
+    margin-top: 3rem;
+    height: 340vh;
+    .fullbox {
+        display: flex;
+        justify-content: space-between;
+        .left {
+            width: 21%;
+            .box {
+                width: 100%;
+                border: 1px solid rgb(214, 211, 211);
+                padding: 10px;
+                border-radius: 20px;
+                box-shadow: 5px 5px 2px 2px #f1efef;
+                margin-bottom: 2rem;
+                h1 {
+                    font-size: 30px;
+                    position: relative;
+                    padding: 15px 0;
+                    color: rgb(1, 1, 32);
+                }
+                h1::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                    border: 2px solid rgb(181, 214, 181);
+                    width: 100px;
+                }
+                hr {
+                    border: 1px solid rgb(214, 211, 211);
+                    position: relative;
+                }
+            }
+            .category {
+                .link {
+                    height: 50px;
+                    width: 95%;
+                    border: 1px solid rgb(214, 211, 211);
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 6px;
+                    margin: 15px 5px;
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        vertical-align: middle;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: rgb(1, 1, 32);
+                        font-size: 20px;
+                        margin: 10px;
+                    }
+                    span {
+                        width: 22px;
+                        height: 22px;
+                        border-radius: 100%;
+                        background-color: rgb(181, 214, 181);
+                        display: inline-block;
+                        padding: 4px;
+                    }
+                }
+            }
+            .fill {
+                position: relative;
+
+                .leftspan {
+                    display: inline-block;
+                    p {
+                        color: gray;
+                        display: inline;
+                    }
+                    span {
+                        font-weight: bold;
+                        color: rgba(77, 148, 77, 0.89);
+                        font-size: 20px;
+                    }
+                }
+                .rightspan {
+                    display: inline-block;
+                    width: 65%;
+                    text-align: right;
+                    padding-top: 15px;
+
+                    p {
+                        color: gray;
+                        display: inline;
+                    }
+                    span {
+                        font-weight: bold;
+                        color: rgba(77, 148, 77, 0.89);
+                        font-size: 20px;
+                    }
+                }
+                form {
+                    p {
+                        color: rgb(90, 89, 89);
+                        font-size: 20px;
+                        margin-top: 20px;
+                        font-weight: bold;
+                    }
+                    input {
+                        margin-top: 10px;
+                        height: 15px;
+                        width: 15px;
+                    }
+                    label {
+                        color: gray;
+                        font-size: 20px;
+                        margin-left: 5px;
+                    }
+                    .button {
+                        width: 120px;
+                        height: 40px;
+                        background-color: rgba(97, 160, 97, 0.89);
+                        border: none;
+                        border-radius: 5px;
+                        color: white;
+                    }
+                    i {
+                        position: absolute;
+                        bottom: 22px;
+                        left: 30px;
+                        color: white;
+                    }
+                }
+            }
+            .new {
+                .flex {
+                    display: flex;
+                    padding: 20px 0;
+                    .image {
+                        width: 80px;
+                        height: 80px;
+                        background-color: aquamarine;
+                    }
+                    .text {
+                        width: 120px;
+                        margin-left: 10px;
+                        h3 {
+                            color: rgba(90, 146, 90, 0.89);
+                            font-size: 22px;
+                        }
+                        span {
+                            display: block;
+                            font-size: 20px;
+                            color: gray;
+                            margin-top: 5px;
+                        }
+                        i {
+                            color: gold;
+                            font-size: 12px;
+                            margin: 0 -5px 0 0;
+                        }
+                    }
+                }
+            }
+            .bot {
+                background-color: rgb(216, 214, 214);
+                height: 250px;
+                position: relative;
+                .text {
+                    position: absolute;
+                    top: 3rem;
+                    padding: 10px 4rem;
+                    p {
+                        color: gray;
+                    }
+                    h2 {
+                        color: rgb(1, 1, 32);
+                        font-size: 25px;
+                        span {
+                            color: green;
+                        }
+                    }
+                }
+            }
+        }
+        .right {
+            width: 78%;
+            header {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+                .leftbox {
+                    p {
+                        color: gray;
+                        font-size: 20px;
+                        margin-top: 12px;
+                        span {
+                            color: green;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .rightbox {
+                    width: 33%;
+                    ul {
+                        display: flex;
+                        li {
+                            list-style: none;
+                            a {
+                                text-decoration: none;
+                                display: inline-block;
+                                width: 130px;
+                                height: 50px;
+                                border: 1px solid gray;
+                                padding: 10px;
+                                margin-left: 10px;
+                                border-radius: 10px;
+                                color: gray;
+                                i {
+                                    margin: 3px;
+                                }
+                            }
+                            .sort {
+                                width: 183px;
+                            }
+                        }
+                    }
+                }
+            }
+            .topbox {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .box {
+                    width: 19%;
+                    border: 1px solid rgb(226, 223, 223);
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    position: relative;
+                    .index {
+                        display: inline-block;
+                        height: 30px;
+                        width: 70px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        text-align: center;
+                        color: white;
+                        border-radius: 10px 0 10px 0;
+                        padding: 5px;
+                    }
+                    .hot {
+                        background-color: rgb(238, 81, 141);
+                    }
+                    .sale {
+                        background-color: #4dc2e6;
+                    }
+                    .new {
+                        background-color: rgb(26, 161, 26);
+                    }
+                    .percent {
+                        background-color: rgb(192, 105, 105);
+                    }
+                    .image {
+                        width: 100%;
+                        height: 170px;
+                        text-align: center;
+                        padding: 30px;
+                        p {
+                            font-size: 25px;
+                            color: rgb(235, 231, 231);
+                        }
+                    }
+                    .elements {
+                        p {
+                            color: gray;
+                        }
+                        h3 {
+                            margin: 5px 0;
+                            color: rgb(1, 1, 32);
+                        }
+                        .icon {
+                            margin: 10px 0;
+                            span {
+                                color: gray;
+                                margin-left: 5px;
+                                display: inline-block;
+                            }
+                            i {
+                                color: gold;
+                                font-size: 12px;
+                                margin-left: -3px;
+                            }
+                        }
+                        .link {
+                            margin-bottom: 10px;
+                            span {
+                                color: gray;
+                                display: inline-block;
+                                font-size: 15px;
+                            }
+                            a {
+                                text-decoration: none;
+                                font-size: 18px;
+                                color: rgba(77, 148, 77, 0.89);
+                            }
+                        }
+                        .bottom {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 5px 0;
+                            button {
+                                height: 35px;
+                                width: 80px;
+                                background-color: rgb(191, 236, 191);
+                                border: none;
+                                color: rgba(67, 139, 67, 0.89);
+                                border-radius: 5px;
+                            }
+                            .spanbox {
+                                span {
+                                    font-size: 20px;
+                                    color: rgba(77, 148, 77, 0.89);
+                                    font-weight: bold;
+                                }
+                                .cheap {
+                                    font-size: 15px;
+                                    color: gray;
+                                    text-decoration: line-through;
+                                    display: inline-block;
+                                    margin: 10px 10px 0 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .deals {
+                .top {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 0;
+                    h1 {
+                        color: rgb(1, 1, 32);
+                        font-size: 2rem;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: gray;
+                        padding: 5px 0;
+                        font-size: 20px;
+                    }
+                }
+                .footbox {
+                    display: flex;
+                    justify-content: space-between;
+                    .card {
+                        width: 24%;
+                        background-color: rgb(223, 253, 244);
+                        height: 230px;
+                        position: relative;
+                        border-radius: 10px;
+                        .spans {
+                            display: flex;
+                            width: 80%;
+                            justify-content: space-between;
+                            position: absolute;
+                            top: 25%;
+                            left: 10%;
+                            .littlebox {
+                                background-color: white;
+                                padding: 5px;
+                                text-align: center;
+                                p {
+                                    color: gray;
+                                }
+                                span {
+                                    color: green;
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+
+                        .elements {
+                            background-color: white;
+                            width: 80%;
+                            position: absolute;
+                            top: 55%;
+                            left: 10%;
+                            padding: 20px;
+                            border-radius: 10px;
+                            p {
+                                color: gray;
+                            }
+                            h3 {
+                                margin: 5px 0;
+                                color: rgb(1, 1, 32);
+                            }
+                            .icon {
+                                margin: 10px 0;
+                                span {
+                                    color: gray;
+                                    margin-left: 5px;
+                                    display: inline-block;
+                                }
+                                i {
+                                    color: gold;
+                                    font-size: 12px;
+                                    margin-left: -3px;
+                                }
+                            }
+                            .link {
+                                margin-bottom: 10px;
+                                span {
+                                    color: gray;
+                                    display: inline-block;
+                                    font-size: 15px;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    font-size: 18px;
+                                    color: rgba(77, 148, 77, 0.89);
+                                }
+                            }
+                            .bottom {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 5px 0;
+                                button {
+                                    height: 35px;
+                                    width: 80px;
+                                    background-color: rgb(191, 236, 191);
+                                    border: none;
+                                    color: rgba(67, 139, 67, 0.89);
+                                    border-radius: 5px;
+                                }
+                                .spanbox {
+                                    span {
+                                        font-size: 20px;
+                                        color: rgba(77, 148, 77, 0.89);
+                                        font-weight: bold;
+                                    }
+                                    .cheap {
+                                        font-size: 15px;
+                                        color: gray;
+                                        text-decoration: line-through;
+                                        display: inline-block;
+                                        margin: 10px 10px 0 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.botbg {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(221, 252, 242);
+    .text {
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        width: 50%;
+        h1 {
+            color: rgb(1, 1, 32);
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.3rem;
+            color: gray;
+        }
+        input {
+            width: 500px;
+            height: 60px;
+            border-radius: 20px;
+            border: none;
+            margin-top: 2rem;
+        }
+        input::placeholder {
+            font-size: 18px;
+        }
+    }
+}
+.about {
+    display: flex;
+    margin-top: 5rem;
+    height: 400px;
+    .left {
+        width: 30%;
+        .name {
+            width: 90%;
+            display: flex;
+            padding: 15px;
+            margin: auto;
+            img {
+                width: 70px;
+                height: 70px;
+                margin-top: 10px;
+            }
+            .nest {
+                margin-left: 10px;
+                h1 {
+                    font-size: 60px;
+                    color: rgba(0, 128, 0, 0.89);
+                }
+                p {
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+        }
+        p {
+            font-size: 25px;
+        }
+        .address {
+            i {
+                color: rgb(44, 109, 44);
+                font-size: 20px;
+            }
+            span {
+                font-size: 22px;
+                font-weight: bold;
+                display: inline-block;
+                margin-top: 10px;
+                color: rgb(2, 2, 44);
+            }
+            p {
+                display: inline;
+                font-size: 20px;
+                margin: 10px;
+            }
+        }
+    }
+    .right {
+        width: 70%;
+        .mainUl {
+            padding: 25px 10px;
+            .mainLi {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                p {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: rgb(4, 4, 46);
+                }
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: rgb(6, 6, 49);
+                        display: inline-block;
+                        font-size: 22px;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.install {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+        color: rgb(75, 74, 74);
+    }
+    a {
+        margin: 3rem 0;
+
+        display: inline-block;
+
+        .apple {
+            width: 150px;
+            vertical-align: middle;
+        }
+        .play {
+            width: 150px;
+            vertical-align: middle;
+        }
+    }
+    hr {
+        border: 0.5px solid rgb(155, 212, 155);
+        margin: 3rem 0;
+    }
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        width: 30%;
+        padding: 20px 0;
+        p {
+            color: gray;
+            font-size: 20px;
+            span {
+                color: rgb(92, 165, 92);
+                font-weight: bold;
+            }
+        }
+    }
+    .right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        .box {
+            width: 40%;
+            display: flex;
+            i {
+                color: gray;
+                font-size: 2.5rem;
+                margin: 10px ;
+            }
+            .text {
+                span {
+                    color: rgb(62, 138, 62);
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+                p {
+                    color: gray;
+                }
+            }
+        }
+    }
+}

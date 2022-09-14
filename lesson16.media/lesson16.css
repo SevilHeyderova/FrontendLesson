@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bgbox {
+  height: 100vh;
+  background-image: url(https://preview.colorlib.com/theme/franclin/assets/img/hero/h1_hero.jpg.webp);
+  background-position: center;
+  position: relative;
+}
+
+.bgbox .text {
+  width: 45%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.bgbox .text h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+.bgbox .text .link {
+  position: relative;
+  height: 100px;
+}
+
+.bgbox .text .link a {
+  text-decoration: none;
+  color: white;
+  background-color: #2c2b2b;
+  border-radius: 30px;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 25%;
+  bottom: 0;
+}
+
+.bgbox::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .bgbox {
+    width: 100%;
+    background-position: center;
+  }
+  .bgbox .text {
+    width: 350px;
+    left: 8%;
+  }
+  .bgbox .text h1 {
+    font-size: 35px;
+  }
+  .bgbox .text .link a {
+    left: 20%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1140px) {
+  .bgbox .text {
+    width: 600px;
+    text-align: center;
+    left: 12%;
+  }
+  .bgbox .text .link a {
+    left: 30%;
+  }
+}
+/*# sourceMappingURL=lesson16.css.map */

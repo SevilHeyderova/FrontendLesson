@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+header {
+  background-image: url(https://preview.colorlib.com/theme/auction/images/xhero_1.jpg.pagespeed.ic.HtRckp66fB.webp);
+  height: 100vh;
+  background-size: cover;
+}
+
+header .navbar-brand {
+  position: relative;
+}
+
+header .navbar-brand::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  border: 2px solid orange;
+  left: 10px;
+}
+
+header nav a {
+  color: white !important;
+  margin: 15px;
+  position: relative;
+}
+
+header nav a:hover::after {
+  content: "";
+  position: absolute;
+  border: 1px solid white;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  left: 0;
+}
+
+header nav .dropdown-menu a {
+  color: black !important;
+}
+
+header nav button {
+  color: white !important;
+}
+
+header .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+header .text h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+header .text p {
+  color: white;
+}
+
+header::before {
+  content: "";
+  height: 100vh;
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.selling {
+  margin-top: 2rem;
+}
+
+.selling .text {
+  text-align: center;
+}
+
+.selling .text h4 {
+  color: orange;
+}
+
+.selling .text p {
+  font-size: 2rem;
+}
+
+.selling .text p span {
+  font-weight: bold;
+}
+
+.selling .col-lg-3 .card {
+  position: relative;
+  border: 1px solid #f8f2f2;
+  -webkit-box-shadow: 1px 3px 3px #eee7e7;
+          box-shadow: 1px 3px 3px #eee7e7;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.selling .col-lg-3 .card .spans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: gray;
+}
+
+.selling .col-lg-3 .card a {
+  display: block;
+  width: 120px;
+  background-color: #f3f1f1;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.selling .col-lg-3 .card .price {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.selling .col-lg-3 .card .price span {
+  height: 90px;
+  width: 90px;
+  background-color: #f36817;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.works {
+  margin-top: 5rem;
+}
+
+.works .text {
+  margin: 3rem 0;
+}
+
+.works .text h5 {
+  color: orange;
+}
+
+.works .text p {
+  font-size: 30px;
+  color: black;
+}
+
+.works .text p span {
+  font-weight: bold;
+}
+
+.works .col-lg-3 .card {
+  border: none;
+}
+
+.works .col-lg-3 .card p {
+  color: gray;
+}
+
+.works .col-lg-3 .card .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works .col-lg-3 .card .images .card-img-top {
+  background-color: #f16310;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+.works .col-lg-3 .card .images .card-img-top .icon {
+  color: white;
+  font-size: 30px;
+  margin: 0 !important;
+}
+
+.works .col-lg-3 .card .images i {
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+.works .col-lg-3 .card h5 {
+  margin-left: 5px;
+}
+
+.works .col-lg-3 .card p {
+  margin-left: -10px;
+}
+
+.about {
+  margin-top: 5rem;
+}
+
+.about .col-md-6 .photo {
+  background-image: url(https://preview.colorlib.com/theme/auction/images/xhero_1.jpg.pagespeed.ic.HtRckp66fB.webp);
+  height: 400px;
+  background-size: cover;
+}
+
+.about .col-md-6 .text {
+  padding: 0 20px;
+}
+
+.about .col-md-6 .text h5 {
+  color: orange;
+  margin: 0;
+  font-weight: normal;
+}
+
+.about .col-md-6 .text p {
+  font-size: 2rem;
+}
+
+.about .col-md-6 .text p span {
+  font-weight: bold;
+}
+
+.about .col-md-6 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .col-md-6 .box .left {
+  padding: 10px;
+}
+
+.about .col-md-6 .box .left span {
+  width: 70px;
+  height: 70px;
+  background-color: #fa630b;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 18px;
+}
+
+.about .col-md-6 .box .left span i {
+  color: white;
+  font-size: 2rem;
+}
+
+.about .col-md-6 .box .right {
+  padding: 0 10px;
+}
+
+.about .col-md-6 .box .right h4 {
+  color: orange;
+  font-weight: normal;
+}
+
+.about .col-md-6 .box .right p {
+  color: gray;
+  font-size: 15px;
+}
+
+.carousel-area {
+  margin-top: 5rem;
+  height: 550px;
+  background-image: url(https://preview.colorlib.com/theme/auction/images/xhero_1.jpg.pagespeed.ic.HtRckp66fB.webp);
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-area .owl-theme .owl-dots .owl-dot span {
+  width: 30px;
+  height: 4px;
+  margin-top: 3rem;
+}
+
+.carousel-area .header {
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.carousel-area .header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.carousel-area .text2 p {
+  font-size: 20px;
+  color: white;
+}
+
+.carousel-area .item {
+  margin-top: 10rem;
+}
+
+.carousel-area .owl-carousel .box {
+  padding: 1rem;
+}
+
+.carousel-area .owl-carousel .box .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel-area .owl-carousel .box .person .photo {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-image: url(person2.jpg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.carousel-area .owl-carousel .box .person .text {
+  margin-left: 1rem;
+  color: white;
+}
+
+.carousel-area .owl-carousel .box .person .text h5 {
+  font-weight: normal;
+}
+
+.carousel-area .owl-carousel .box .text2 p {
+  font-size: 18px;
+}
+
+.carousel-area::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fa630b;
+  opacity: 0.9;
+}
+
+.end {
+  position: relative;
+  height: 300px;
+  margin-top: 3rem;
+}
+
+.end .text {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.end .text p {
+  font-size: 2rem;
+}
+
+.end .text a {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  background-color: #fa630b;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f7f3f3;
+  height: 500px;
+}
+
+footer a {
+  display: inline-block;
+  color: gray;
+}
+
+footer .navbar-brand {
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+footer .navbar-brand::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  border: 2px solid orange;
+  left: 10px;
+}
+
+footer .left p {
+  color: gray;
+}
+
+footer .right ul li {
+  list-style: none;
+}
+
+footer .right ul li a {
+  padding: 5px;
+}
+
+footer .right ul li p {
+  color: black;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  header .text h1 {
+    font-size: 3rem;
+  }
+  .carousel-area .owl-theme .owl-dots .owl-dot span {
+    margin-top: -2rem;
+  }
+  .end .text {
+    width: 50%;
+  }
+  .end .text p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1140px) {
+  .carousel-area .owl-theme .owl-dots .owl-dot span {
+    margin-top: -1rem;
+  }
+  .about .col-md-6 .box .left {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
